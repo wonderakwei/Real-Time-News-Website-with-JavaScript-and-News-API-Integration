@@ -22,7 +22,7 @@ const domains = document.getElementById("domains");
 let newsDataArr = [];
 
 // API Information
-const API_KEY = "8dd0c6ef7e7d497c90158dae8e6df7f0"; // Add your API key here
+const API_KEY = ""; // Add your API key here
 const COUNTRY = "ng";
 const HEADLINES_NEWS = `https://newsapi.org/v2/top-headlines?country=${COUNTRY}&apiKey=${API_KEY}`;
 const GENERAL_NEWS = `https://newsapi.org/v2/top-headlines?country=${COUNTRY}&category=general&apiKey=${API_KEY}`;
